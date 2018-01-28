@@ -1,2 +1,17 @@
-<h1>top</h1>
-<p>helloworld</p>
+<h2>TODOリスト</h2>
+<form class="" action="/add" method="post">
+  <input type="text" name="task">
+  <input type="submit"value="送信">
+</form>
+
+<% if (typeof(docs) !== "undefined"){ %>
+  <ul>
+    <% for(var doc of docs){ %>
+      <li><%= doc.task %></li>
+      <form class="" action="/delete" method="post">
+        <input type="hidden" name="delete_id" value= "<%= doc._id %>" >
+        <input type="submit" value="削除">
+      </form>
+    <% } %>
+  </ul>
+<% } %>
