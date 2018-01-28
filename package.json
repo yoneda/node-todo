@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "simple todo list implemented in node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonedaco/node-todo.git"
+  },
+  "author": "yoneda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonedaco/node-todo/issues"
+  },
+  "homepage": "https://github.com/yonedaco/node-todo#readme"
+}
